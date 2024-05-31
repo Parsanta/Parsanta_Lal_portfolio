@@ -1,0 +1,31 @@
+@keyframes border-glow {
+    0% {
+      border-image-source: linear-gradient(90deg, purple, transparent, purple, transparent);
+    }
+    25% {
+      border-image-source: linear-gradient(180deg, transparent, purple, transparent, purple);
+    }
+    50% {
+      border-image-source: linear-gradient(270deg, purple, transparent, purple, transparent);
+    }
+    75% {
+      border-image-source: linear-gradient(360deg, transparent, transparent, transparent, purple);
+    }
+    100% {
+      border-image-source: linear-gradient(90deg, purple, transparent, purple, transparent);
+    }
+  }
+  
+  .animate-border-glow {
+    border-width: 2px;
+    border-style: solid;
+    border-image-slice: 1;
+    animation: border-glow 5s linear infinite;
+  }
+  .broken-piece {
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: white; /* Adjust background color as needed */
+    /* Add any additional styling properties such as border, shadow, etc. */
+  }
+  
