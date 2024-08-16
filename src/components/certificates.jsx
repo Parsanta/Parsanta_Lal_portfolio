@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { certifications } from "./Data";
+import { certifications_data } from "./Data";
 
 const Certifications = () => {
   const [hoverIndex, setHoverIndex] = React.useState(null);
@@ -24,7 +24,7 @@ const Certifications = () => {
             Certifications
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
-            {certifications.map((certification, index) => (
+            {certifications_data.map((certification, index) => (
               <div
                 key={index}
                 className="relative"
@@ -32,7 +32,7 @@ const Certifications = () => {
                 onMouseLeave={() => setHoverIndex(null)}
               >
                 <a href={certification.link} className="block">
-                  <div className="bg-white rounded-lg overflow-hidden shadow-md text-purple-600">
+                  <div className="bg-white rounded-lg overflow-hidden shadow-md text-white">
                     <img
                       src={certification.image}
                       alt={certification.title}
@@ -41,20 +41,20 @@ const Certifications = () => {
                   </div>
                 </a>
                 {hoverIndex === index && (
-                  <div className="absolute top-0 left-0 w-full h-full bg-purple-300 p-4 opacity-100 transition duration-300 ease-in-out transform translate-y-0 overflow-hidden">
-                    <div className="bg-purple-300 p-2">
-                      <h3 className="text-lg text-purple-700 font-bold mb-1">
+                  <div className="absolute top-0 left-0 w-full h-full bg-purple-400 p-4 opacity-100 transition duration-300 ease-in-out transform translate-y-0 overflow-hidden">
+                    <div className="bg-purple-400 p-2">
+                      <h3 className="text-lg text-white font-bold mb-1">
                         {certification.title}
                       </h3>
-                      <p className="text-sm text-gray-600 mb-1">
+                      <p className="text-sm text-gray-300 mb-1">
                         {certification.organization}
                       </p>
-                      <p className="text-sm text-gray-700">
+                      <p className="text-sm text-gray-300">
                         {certification.date}
                       </p>
                       <a
                         href={certification.link}
-                        className="text-purple-600 hover:underline"
+                        className="text-white hover:underline"
                       >
                         View Certifications
                       </a>

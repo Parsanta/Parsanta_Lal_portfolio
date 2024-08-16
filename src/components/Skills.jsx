@@ -37,7 +37,7 @@ export default function Skills() {
       className="container mx-auto px-4 md:px-8"
       id="skills"
     >
-      <div className="border-b border-nuetral-800 pb-20">
+      <div className="border-b border-gray-800 pb-20">
         <h1 className="my-20 text-center text-4xl">Skills</h1>
         <div className="flex flex-wrap items-center justify-center gap-4">
           {skillsData.map((skill, index) => (

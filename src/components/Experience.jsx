@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Experience() {
   return (
-    <div className="border-b border-neutral-900 pb-4" id="experience">
+    <div className="border-b border-gray-800 pb-4" id="experience">
       <h1 className="my-20 text-center text-4xl"> Experience</h1>
       <div>
         {EXPERIENCES.map((experience, index) => (

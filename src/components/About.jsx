@@ -65,9 +65,9 @@ export default function About() {
             whileTap={{ scale: 0.55 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
             className="bg-transparent text-white font-bold py-3 px-8 transition duration-300 mb-2 animate-border-glow"
-            href="#contact"
+            
           >
-            Hire Me
+            <a href="#contact">Hire Me</a>
           </motion.button>
         </div>
       </motion.div>

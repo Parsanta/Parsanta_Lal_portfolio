@@ -14,7 +14,7 @@ const Navbar = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="mb-6 flex flex-col lg:flex-row items-center justify-between py-4"
+      className="mb-2 flex flex-col lg:flex-row items-center justify-between py-1"
     >
       <div className="flex items-center justify-between w-full lg:w-auto">
         <img src={logo} alt="Logo" className="w-24 h-auto" />
@@ -46,7 +46,7 @@ const Navbar = () => {
         <motion.a
           whileHover={{ scale: 1.1 }}
           href="#home"
-          className="mb-2 lg:mb-0"
+          className="mb- lg:mb-0"
         >
           Home
         </motion.a>

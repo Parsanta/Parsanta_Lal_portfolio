@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className="border-b border-neutral-900 pb-12" id="projects">
+    <div className="border-b border-gray-800 pb-12" id="projects">
       <h1 className="my-20 text-center text-4xl font-bold text-gray-200">
         Projects
       </h1>

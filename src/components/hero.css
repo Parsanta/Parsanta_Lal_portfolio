@@ -1,0 +1,15 @@
+/* hero.css */
+
+.wave {
+    animation: wave-animation 15s linear infinite;
+  }
+  
+  @keyframes wave-animation {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
