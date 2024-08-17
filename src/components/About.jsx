@@ -21,18 +21,18 @@ export default function About() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center" id="about">
+    <section className=" relative min-h-screen flex items-center justify-center" id="about">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0, transition: { duration: 0.9, delay: 0.3 } }}
         className="container mx-auto px-4 md:px-8"
       >
-        <h2 className="text-3xl md:text-4xl font-bold mb-5 text-white-700 font-nunito">
+        <h2 className="text-4xl md:text-4xl font-bold mb-5 text-white-700 righteous-regular">
           ABOUT ME
         </h2>
 
         <p
-          className={`text-gray-300 text-lg mb-5 ${isSmallScreen && !showMore ? "line-clamp-5" : ""}`}
+          className={`text-gray-300 righteous-regular text-lg mb-5 ${isSmallScreen && !showMore ? "line-clamp-5" : ""}`}
         >
           I'm a passionate Flutter developer with experience in creating amazing
           apps. I specialize in mobile app development and have worked on
@@ -64,7 +64,7 @@ export default function About() {
             whileHover={{ scale: 1.1, backgroundColor: "purple" }}
             whileTap={{ scale: 0.55 }}
             transition={{ type: "spring", stiffness: 300, damping: 15 }}
-            className="bg-transparent text-white font-bold py-3 px-8 transition duration-300 mb-2 animate-border-glow"
+            className="bg-transparent text-white righteous-regular font-bold py-3 px-8 transition duration-300 mb-2 animate-border-glow"
             
           >
             <a href="#contact">Hire Me</a>

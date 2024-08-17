@@ -12,6 +12,7 @@ import genAiIntro from "../assets/img/genAiIntro.jpg";
 import notes_pro from "../assets/img/notes_pro.png";
 import dispatch from "../assets/img/dispatch.jpg"
 import rust_pro from "../assets/img/rust_pro.png"
+import review from "../assets/img/Review.png"
 export const certifications_data = [
   {
     image: MLWP,
@@ -24,12 +25,6 @@ export const certifications_data = [
     title: "AI Foundations for Everyone",
     date: "December 28, 2023",
     link: "https://coursera.org/share/bc66d478bcae18bc4a0751b030109589",
-  },
-  {
-    image: chatbot,
-    title: "Building AI Powered Chatbots Without Programming",
-    date: "December 28, 2023",
-    link: "https://coursera.org/share/a4ba41da19efbfcb6bf9049e3162f182",
   },
   {
     image: genAi,
@@ -64,29 +59,30 @@ export const certifications_data = [
 ];
 export const EXPERIENCES = [
   {
-    year: "jan 2024 - May 2024",
-    role: "C++ Developer",
-    company: "SUPARCO",
-    description: `Develop, convert, and optimize algorithms.Collaborate with a team to enhance SAR image quality and contribute to software development`,
-    technologies: ["C++", "Matlab"],
-  },
-  {
-    year: "Apirl 2023 - present",
+    year: "Apirl 2023 - Present",
     role: "Research Assistant",
     company: "Undergraduate Research ",
     description: `Physically Based Phase Function in Volume Rendering, objective of this research is to Enhance volumetric rendering quality for this purpose we are Proposing our own phase function, which is more physically accurate, showcasing applicability in various use cases,
     including medical CT scans, MRI, and animations.`,
     technologies: ["C++", "Exposure Render", "Pbrtv4"]
+  },
+  {
+    year: "Jan 2024 - May 2024",
+    role: "C++ Developer",
+    company: "SUPARCO",
+    description: `Develop, convert, and optimize algorithms.Collaborate with a team to enhance SAR image quality and contribute to software development`,
+    technologies: ["C++", "Matlab"],
   }
+  
 ];
 export const PROJECTS = [
   {
     title: "Review Analyzer",
     projectUrl: "https://www.linkedin.com/posts/parsanta-rajpal_machinelearning-productreviewanalyzer-ai-activity-7212124099739889664-AvIb?utm_source=share&utm_medium=member_desktop",
-    image: dispatch,
+    image: review,
     description:
-      "A fully functional and responsive e-commerce website with features like product listing, shopping cart, and user authentication. The Project includes an Admin Dashboard and User Dashboard empowering seamless capabilities to add, delete, and edit orders and products",
-    technologies: ["ReactJS", "Firebase"],
+      "Designed and implemented a sentiment analysis model to predict review sentiment.Achieved 92% accuracy in classifying reviews. Implemented a system to generate complaints from negative reviews to the relevant departments for timely resolution. ",
+    technologies: ["NLP","Python", "TensorFlow", "ReactJs"],
   },
   {
     title: "Dis-patch E-commerce Website",

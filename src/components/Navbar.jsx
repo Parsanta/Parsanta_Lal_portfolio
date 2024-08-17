@@ -1,22 +1,46 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "../assets/img/logo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("#home");
+  const [hoveredSection, setHoveredSection] = useState(null);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = ["#home", "#about", "#skills", "#experience", "#projects", "#certificates", "#contact"];
+      const offsets = sections.map(id => {
+        const section = document.querySelector(id);
+        return section ? section.offsetTop : 0;
+      });
+
+      const scrollPosition = window.scrollY + 100;
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        if (scrollPosition >= offsets[i]) {
+          setActiveSection(sections[i]);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="mb-2 flex flex-col lg:flex-row items-center justify-between py-1"
+      className="top-1 left-1 right-12 z-50  shadow-md flex flex-col lg:flex-row items-center justify-between py-1"
     >
-      <div className="flex items-center justify-between w-full lg:w-auto">
+      <div className="flex items-center justify-between w-full lg:w-auto px-4">
         <img src={logo} alt="Logo" className="w-24 h-auto" />
         <button
           onClick={toggleMenu}
@@ -43,55 +67,26 @@ const Navbar = () => {
           isOpen ? "flex" : "hidden"
         } flex-col lg:flex lg:flex-row items-center justify-center lg:gap-6 text-md`}
       >
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#home"
-          className="mb- lg:mb-0"
-        >
-          Home
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#about"
-          className="mb-2 lg:mb-0"
-        >
-          About
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#skills"
-          className="mb-2 lg:mb-0"
-        >
-          Skills
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#experience"
-          className="mb-2 lg:mb-0"
-        >
-          Experience
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#projects"
-          className="mb-2 lg:mb-0"
-        >
-          Projects
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#projects"
-          className="mb-2 lg:mb-0"
-        >
-          Certificates
-        </motion.a>
-        <motion.a
-          whileHover={{ scale: 1.1 }}
-          href="#contact"
-          className="mb-2 lg:mb-0"
-        >
-          Contact
-        </motion.a>
+        {["#home", "#about", "#skills", "#experience", "#projects", "#certifications", "#contact"].map((section) => (
+          <motion.a
+            key={section}
+            whileHover={{ scale: 1.1 }}
+            href={section}
+            className="mb-2 lg:mb-0 lg:py-2 relative"
+            onMouseEnter={() => setHoveredSection(section)}
+            onMouseLeave={() => setHoveredSection(null)}
+            onClick={() => setActiveSection(section)}
+          >
+            {section.replace("#", "").charAt(0).toUpperCase() + section.slice(2)}
+            {(activeSection === section || hoveredSection === section) && (
+              <motion.div
+                layoutId="underline"
+                className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-purple-400 to-purple-700"
+                transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              />
+            )}
+          </motion.a>
+        ))}
       </motion.div>
     </motion.div>
   );

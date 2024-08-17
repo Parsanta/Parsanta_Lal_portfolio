@@ -52,7 +52,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="relative min-h-screen overflow-hidden flex items-center justify-center" id="home">
+    <section className=" py-18 relative min-h-screen overflow-hidden flex items-center justify-center" id="home">
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-between">
         <AnimatePresence>
           <motion.div
@@ -76,7 +76,7 @@ export default function HeroSection() {
                 {text}
               </motion.span>
             </h1>
-            <p className="text-gray-400 text-lg mb-4" onClick={handleDownload}>
+            <p className="text-gray-400 text-lg mb-4 righteous-regular" onClick={handleDownload}>
               I'm a ReactJs developer, Passionate about web development and
               creativity in JavaScript development and development of React
               components.
@@ -111,7 +111,7 @@ export default function HeroSection() {
               whileHover={{ scale: 1.1, backgroundColor: "purple" }}
               whileTap={{ scale: 0.55}}
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
-              className="bg-transparent text-white font-bold font-nunito py-3 px-8 transition duration-300 mb-2 animate-border-glow"
+              className="bg-transparent text-white font-bold righteous-regular py-3 px-8 transition duration-300 mb-2 animate-border-glow"
               onClick={handleDownload}
             >
               Resume

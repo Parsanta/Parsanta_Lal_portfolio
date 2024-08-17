@@ -16,7 +16,7 @@ export default function Contact() {
             className="flex-grow lg:w-1/2 bg-transparent py-12 px-8 text-center lg:border-r border-gray-800"
           >
             <img src={contactImg} alt="Vector" className="mx-auto w-3/4 lg:w-2/3" />
-            <h2 className="text-3xl font-bold mt-8">Contact Me</h2>
+            <h2 className="text-3xl righteous-regular font-bold mt-8">Contact Me</h2>
             <p className="mt-4 text-gray-300">Feel free to get in touch with me.</p>
           </motion.div>
           <motion.div
@@ -24,8 +24,8 @@ export default function Contact() {
             whileInView={{ opacity: 1, y: 0, transition: { duration: 0.9, delay: 0.5 } }}
             className="flex-grow lg:w-1/2 bg-transparent py-12 px-8 text-center lg:text-left"
           >
-            <h2 className="text-3xl font-bold mb-8">Send me a Message or Email to collaborate</h2>
-            <p className="text-gray-300">Email: Parsantarajpal123@gmail.com</p>
+            <h2 className="text-3xl righteous-regular font-bold mb-8">Send me a Message or Email to collaborate</h2>
+            <p className="text-gray-300">Email: parsantarajpal123@gmail.com</p>
             <p className="text-gray-300">Contact: +923483607136</p>
             <p className="text-gray-300">Karachi, Pakistan</p>
             <div className="mt-8 flex justify-center lg:justify-start space-x-4">
