@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaBehance } from "react-icons/fa";
-import { BsMouse } from "react-icons/bs";
 import profile from "../assets/img/profile-pic.png";
 import { motion, AnimatePresence } from "framer-motion";
 import "../components/glow.css";
@@ -13,7 +12,7 @@ export default function HeroSection() {
 
   const [loopNum, setLoopNum] = React.useState(0);
   const [isDeleting, setIsDeleting] = React.useState(false);
-  const toRotate = ["Hello!! I am Parsanta Lal"];
+  const toRotate = ["Hello There,I'm"];
   const [text, setText] = React.useState("");
   const period = 1000;
   const [delta, setDelta] = React.useState(100 - Math.random() * 400);
@@ -66,22 +65,22 @@ export default function HeroSection() {
             exit="initial"
             className="md:w-2/5 text-center md:text-left mb-4 md:mb-0"
           >
-            <h1 className="font-bold text-6xl mb-2 text-white-900 font-nunito">
+            <h1 className="text-4xl mb-2 text-white-700 sarina-regular">
               <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, type: "spring", stiffness: 500, damping: 30 }}
                 className="inline-block"
               >
-                {text}
+                {text}✏️ <br/>
+                
               </motion.span>
             </h1>
-            <p className="text-gray-400 text-lg mb-4 righteous-regular" onClick={handleDownload}>
-              I'm a ReactJs developer, Passionate about web development and
-              creativity in JavaScript development and development of React
-              components.
+            <p className="font-bold text-6xl mb-2 text-purple-500 font-montserrat">Parsanta Lal</p>
+            <p className="text-gray-400 text-md mb-4 font-nunito" onClick={handleDownload}>
+            I'm a ReactJS developer passionate about crafting innovative web experiences. I am also passionate about Machine Learning, AI, and NLP, creating intelligent solutions that merge front-end creativity with cutting-edge technology.
             </p>
-            <div className="flex md:justify-start items-end gap-4 text-3xl mb-6">
+            <div className="flex md:justify-start justify-center items-center md:items-end gap-4 text-3xl mb-6">
                 <a
                   href="https://www.linkedin.com/in/joseph-hernandez-1992/"
                   target="_blank"
@@ -111,7 +110,7 @@ export default function HeroSection() {
               whileHover={{ scale: 1.1, backgroundColor: "purple" }}
               whileTap={{ scale: 0.55}}
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
-              className="bg-transparent text-white font-bold righteous-regular py-3 px-8 transition duration-300 mb-2 animate-border-glow"
+              className="bg-transparent text-white font-nunito py-3 px-8 transition duration-300 mb-2 animate-border-glow"
               onClick={handleDownload}
             >
               Resume

@@ -1,13 +1,9 @@
-import project1 from "../assets/img/pro2.png";
-import project2 from "../assets/img/pro2.png";
-import project3 from "../assets/img/pro2.png";
 import AI from "../assets/img/intro_AI.jpg";
 import genAi from "../assets/img/genAi.jpg";
 import MLWP from "../assets/img/MLWP.jpg";
 import DB from "../assets/img/DBSQL.jpg";
 import pyAI from "../assets/img/python_AI.jpg";
 import AI_foundations from "../assets/img/AI_foundations.jpg";
-import chatbot from "../assets/img/chatbot.jpg";
 import genAiIntro from "../assets/img/genAiIntro.jpg";
 import notes_pro from "../assets/img/notes_pro.png";
 import dispatch from "../assets/img/dispatch.jpg"
@@ -103,6 +99,7 @@ export const PROJECTS = [
   {
     title: "Real-time Multiplayer Game",
     image: rust_pro,
+    projectUrl: "https://github.com/Parsanta/Client-side/tree/main",
     description:
       "Developed a real-time multiplayer command-line game called Hangman in Rust, enabling multiple players to engage in acompetitive word-guessing challenge Implemented live score and guess updates on each player's terminal immediately",
     technologies: ["Rust"],

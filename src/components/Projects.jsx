@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <div className="border-b border-gray-800 pb-12" id="projects">
-      <h1 className="my-20 text-center text-4xl righteous-regular font-bold text-gray-200">
+      <h1 className="my-20 text-center text-4xl font-nunito font-bold text-gray-200">
         Projects
       </h1>
       <div className="space-y-12">
@@ -43,7 +43,7 @@ export default function Projects() {
                   transition={{ duration: 0.3 }}
                   className="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-700 opacity-90 flex items-center justify-center rounded-lg"
                 >
-                  <span className="text-white font-bold">View Project</span>
+                  <span className="text-white font-nunito font-bold">View Project</span>
                 </motion.div>
               )}
             </a>
@@ -54,7 +54,7 @@ export default function Projects() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <h6 className="mb-2 text-xl righteous-regular font-semibold text-gray-100">
+              <h6 className="mb-2 text-xl font-nunito font-semibold text-gray-100">
                 {project.title}
               </h6>
               <p className="mb-4 text-gray-400">{project.description}</p>
@@ -65,7 +65,7 @@ export default function Projects() {
                     whileTap={{ scale: 0.95 }}
                     transition={{ type: "spring", stiffness: 300, damping: 15 }}
                     key={techIndex}
-                    className="bg-transparent text-white righteous-regular font-bold py-2 md:py-3 px-4 md:px-8 mr-2 md:mr-4 mb-2 animate-border-glow"
+                    className="bg-transparent text-white font-nunito font-bold py-2 md:py-3 px-4 md:px-8 mr-2 md:mr-4 mb-2 animate-border-glow"
                     style={{ fontSize: "0.75rem", lineHeight: "1.5" }}
                   >
                     {tech}

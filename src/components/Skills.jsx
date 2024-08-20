@@ -38,7 +38,7 @@ export default function Skills() {
       id="skills"
     >
       <div className="border-b border-gray-800 pb-20">
-        <h1 className="my-20 text-center righteous-regular text-4xl">Skills</h1>
+        <h1 className="my-20 text-center arimo text-5xl">Skills</h1>
         <div className="flex flex-wrap items-center justify-center gap-4">
           {skillsData.map((skill, index) => (
             <motion.div

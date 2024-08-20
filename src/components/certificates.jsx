@@ -43,18 +43,18 @@ const Certifications = () => {
                 {hoverIndex === index && (
                   <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-purple-400 to-purple-700 opacity-90 p-4 opacity-100 transition duration-300 ease-in-out transform translate-y-0 overflow-hidden">
                     <div className="bg-gradient-to-r from-purple-400 to-purple-700 opacity-90 p-2">
-                      <h3 className="text-lg text-white font-bold mb-1">
+                      <h3 className="text-lg text-white font-nunito font-bold mb-1">
                         {certification.title}
                       </h3>
-                      <p className="text-sm text-gray-300 mb-1">
+                      <p className="text-sm font-nunito text-gray-300 mb-1">
                         {certification.organization}
                       </p>
-                      <p className="text-sm text-gray-300">
+                      <p className="text-sm font-nunito text-gray-300">
                         {certification.date}
                       </p>
                       <a
                         href={certification.link}
-                        className="text-white hover:underline"
+                        className="text-white font-nunito hover:underline"
                       >
                         View Certifications
                       </a>
