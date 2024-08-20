@@ -76,7 +76,7 @@ export default function HeroSection() {
                 
               </motion.span>
             </h1>
-            <p className="font-bold text-6xl mb-2 text-purple-500 font-montserrat">Parsanta Lal</p>
+            <p className="font-bold text-6xl mb-2 text-purple-700 font-montserrat">Parsanta Lal</p>
             <p className="text-gray-400 text-md mb-4 font-nunito" onClick={handleDownload}>
             I'm a ReactJS developer passionate about crafting innovative web experiences. I am also passionate about Machine Learning, AI, and NLP, creating intelligent solutions that merge front-end creativity with cutting-edge technology.
             </p>
