@@ -38,7 +38,7 @@ const Navbar = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="top-1  right-12 z-50  shadow-md flex flex-col lg:flex-row items-center justify-between py-1"
+      className="top-1 lg:left-10 lg:fixed right-12 z-50  shadow-md flex flex-col lg:flex-row items-center justify-between py-1"
     >
       <div className="flex  items-center justify-between w-full lg:w-auto px-4">
         <img src={logo} alt="Logo" className="w-24 h-auto" />

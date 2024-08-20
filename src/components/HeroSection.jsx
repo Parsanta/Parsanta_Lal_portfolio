@@ -51,7 +51,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className=" py-18 relative min-h-screen overflow-hidden flex items-center justify-center" id="home">
+    <section className=" py-18 lg:mt-20 relative min-h-screen overflow-hidden flex items-center justify-center" id="home">
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-between">
         <AnimatePresence>
           <motion.div
