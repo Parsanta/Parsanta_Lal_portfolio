@@ -7,7 +7,7 @@ import "../components/glow.css";
 export default function HeroSection() {
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1-9Foc2jhwwudb-d-NEfho8CwK091bW6Y/view?usp=sharing";
+      "https://drive.google.com/file/d/1QqLg1UfcYDdqp6JbIpXSwYFnqTNdxFYH/view?usp=sharing";
   };
 
   const [loopNum, setLoopNum] = React.useState(0);
@@ -60,6 +60,7 @@ export default function HeroSection() {
             whileInView={{
               opacity: 1,
               y: 0,
+              
               transition: { duration: 0.9, delay: 0.3 },
             }}
             exit="initial"
@@ -131,7 +132,7 @@ export default function HeroSection() {
           >
            
             
-            <div className="flex flex-col items-center md:items-center relative z-10">
+            <div className="flex flex-col items-center left-5 bottom-5 md:items-center relative z-10">
               <motion.img
                 src={profile}
                 alt="Profile"

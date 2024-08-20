@@ -39,7 +39,7 @@ export default function About() {
         </h2>
 
         <p
-          className={`text-gray-300 font-nunito text-lg mb-5 ${
+          className={`text-gray-400 font-nunito text-lg mb-5 ${
             isSmallScreen && !showMore ? "line-clamp-5" : ""
           }`}
         >
