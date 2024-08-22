@@ -29,15 +29,16 @@ export default function Contact() {
             <p className="text-gray-300">Contact: +923483607136</p>
             <p className="text-gray-300">Karachi, Pakistan</p>
             <div className="mt-8 flex justify-center lg:justify-start space-x-4">
-              <motion.a whileHover={{ scale: 1.2, color: "#86198f" }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com" className="text-gray-400 hover:text-white">
+              <motion.a whileHover={{ scale: 1.2, color: "#86198f" }} whileTap={{ scale: 0.9 }} href="https://www.linkedin.com/in/parsanta-rajpal/" className="text-gray-400 hover:text-white">
                 <FaLinkedin size={30} />
               </motion.a>
-              <motion.a whileHover={{ scale: 1.2, color : "#86198f"  }} whileTap={{ scale: 0.9 }} href="https://www.behance.net" className="text-gray-400 hover:text-white">
-                <FaBehance size={30} />
-              </motion.a>
-              <motion.a whileHover={{ scale: 1.2 , color:"#86198f" }} whileTap={{ scale: 0.9 }} href="https://www.github.com" className="text-gray-400 hover:text-white">
+              <motion.a whileHover={{ scale: 1.2 , color:"#86198f" }} whileTap={{ scale: 0.9 }} href="https://github.com/Parsanta" className="text-gray-400 hover:text-white">
                 <FaGithub size={30} />
               </motion.a>
+              <motion.a whileHover={{ scale: 1.2, color : "#86198f"  }} whileTap={{ scale: 0.9 }} href="https://www.behance.net/parsantarajpal" className="text-gray-400 hover:text-white">
+                <FaBehance size={30} />
+              </motion.a>
+              
             </div>
           </motion.div>
         </div>

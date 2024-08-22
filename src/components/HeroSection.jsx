@@ -83,7 +83,7 @@ export default function HeroSection() {
             </p>
             <div className="flex md:justify-start justify-center items-center md:items-end gap-4 text-3xl mb-6">
                 <a
-                  href="https://www.linkedin.com/in/joseph-hernandez-1992/"
+                  href="https://www.linkedin.com/in/parsanta-rajpal/"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-purple-700 transition duration-300"
@@ -91,7 +91,7 @@ export default function HeroSection() {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="https://github.com/joseph-hernandez"
+                  href="https://github.com/Parsanta"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-purple-700 transition duration-300"
@@ -99,7 +99,7 @@ export default function HeroSection() {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://www.behance.net/josephhernandez"
+                  href="https://www.behance.net/parsantarajpal"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-purple-700 transition duration-300"
