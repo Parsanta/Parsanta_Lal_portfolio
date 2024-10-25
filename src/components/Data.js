@@ -55,6 +55,13 @@ export const certifications_data = [
 ];
 export const EXPERIENCES = [
   {
+    year: "September 2024 - Present",
+    role: "AI intern",
+    company: "ELITE IT TEAM",
+    description: `As an AI intern, I develop tools that support both client projects and internal efficiency. For clients, I contribute to detection models, data analysis, and NLP and computer vision tasks, showcasing our technical capabilities. Internally, I’ve created tools like an automated feasibility creator, reducing workload and enabling the sales team to deliver insights faster. My role blends hands-on AI development with practical solutions that drive both company efficiency and client success.`,
+    technologies: ["Exploratory Data Analysis", "Fine Tuning", "Data Annotation","Natural Language Processing (NLP)","Computer Vision"]
+  },
+  {
     year: "Apirl 2023 - Present",
     role: "Research Assistant",
     company: "Undergraduate Research ",

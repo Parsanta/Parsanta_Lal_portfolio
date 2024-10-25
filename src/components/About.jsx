@@ -43,27 +43,11 @@ export default function About() {
             isSmallScreen && !showMore ? "line-clamp-5" : ""
           }`}
         >
-          I am currently pursuing a Bachelor’s degree in Computer Science, now
-          in my seventh semester at DHA Suffa University, with a strong focus on
-          both Web Development and Machine Learning. I have honed my skills in
-          the MERN stack, enabling me to create responsive, user-centric
-          interfaces that bring designs to life with precision and creativity.
-          My expertise lies in developing visually appealing, highly functional
-          websites that offer seamless user experiences.
+          I am currently pursuing a Bachelor’s degree in Computer Science, now in my seventh semester at DHA Suffa University, with a strong focus on AI and Machine Learning. My journey includes hands-on projects in Natural Language Processing (NLP) and computer vision, where I am building a foundation for solving real-world challenges through intelligent, data-driven solutions.
+          <br/>
+          With a background in web development and the MERN stack, I bring an understanding of both user experience and advanced technology, integrating AI into interactive, user-centric applications.
           <br />
-          My journey in Machine Learning, particularly in Natural Language
-          Processing (NLP), is marked by a growing foundation built through
-          hands-on projects. I am passionate about advancing my knowledge in NLP
-          and am eager to apply my skills to solve real-world challenges. My
-          curiosity and dedication drive me to explore new frontiers in this
-          dynamic field.
-          <br />
-          In addition to my technical pursuits, I am actively engaged in
-          research across diverse domains, including Computer Graphics and
-          Artificial Intelligence. This broad research experience allows me to
-          stay at the forefront of technological advancements, where I seek to
-          contribute innovative solutions and push the boundaries of what’s
-          possible.
+          Additionally, I am actively engaged in research across diverse domains, including Computer Graphics and Artificial Intelligence, fueling my curiosity and drive to contribute innovative solutions and push technological boundaries.
           <br />
         </p>
 

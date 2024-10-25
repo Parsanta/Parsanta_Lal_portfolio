@@ -79,7 +79,7 @@ export default function HeroSection() {
             </h1>
             <p className="font-bold text-6xl mb-2 text-purple-400 font-montserrat">Parsanta Lal</p>
             <p className="text-gray-400 text-md mb-4 font-nunito" onClick={handleDownload}>
-            I'm a ReactJS developer passionate about crafting innovative web experiences. I am also passionate about Machine Learning, AI, and NLP, creating intelligent solutions that merge front-end creativity with cutting-edge technology.
+            I'm an AI and Machine Learning developer working on NLP and computer vision projects to build intelligent, innovative solutions. With a background in web development, I can integrate advanced AI technologies into user experiences, blending front-end creativity with data-driven intelligence.
             </p>
             <div className="flex md:justify-start justify-center items-center md:items-end gap-4 text-3xl mb-6">
                 <a
