@@ -6,9 +6,10 @@ import pyAI from "../assets/img/python_AI.jpg";
 import AI_foundations from "../assets/img/AI_foundations.jpg";
 import genAiIntro from "../assets/img/genAiIntro.jpg";
 import notes_pro from "../assets/img/notes_pro.png";
-import dispatch from "../assets/img/dispatch.jpg"
-import rust_pro from "../assets/img/rust_pro.png"
-import review from "../assets/img/Review.png"
+import dispatch from "../assets/img/dispatch.jpg";
+import feasibility from "../assets/img/feasibility.jpg";
+import review from "../assets/img/Review.png";
+
 export const certifications_data = [
   {
     image: MLWP,
@@ -58,7 +59,7 @@ export const EXPERIENCES = [
     year: "September 2024 - Present",
     role: "AI intern",
     company: "ELITE IT TEAM",
-    description: `As an AI intern, I develop tools that support both client projects and internal efficiency. For clients, I contribute to detection models, data analysis, and NLP and computer vision tasks, showcasing our technical capabilities. Internally, I’ve created tools like an automated feasibility creator, reducing workload and enabling the sales team to deliver insights faster. My role blends hands-on AI development with practical solutions that drive both company efficiency and client success.`,
+    description: `•Developed AI and ML solutions for client and internal projects, specializing in Retrieval-Augmented Generation with large language models. Conducted LLM fine-tuning for domain-specific tasks, and exploratory data analysis (EDA) for insights. Automated workflows to enhance efficiency, and deliver impactful tools supporting deliverables and processes.`,
     technologies: ["Exploratory Data Analysis", "Fine Tuning", "Data Annotation","Natural Language Processing (NLP)","Computer Vision"]
   },
   {
@@ -80,6 +81,22 @@ export const EXPERIENCES = [
 ];
 export const PROJECTS = [
   {
+    title: "AI-Powered Outfit Recommendation System",
+    projectUrl: "https://parsanta.github.io/NotesMemo/",
+    image: notes_pro,
+    description:
+      "Developed an AI-powered recommendation system that suggests complementary clothing and accessories based on uploaded images, enhancing the shopping experience.Boosted e-commerce revenue by encouraging multi-item purchases and improving customer satisfaction with personalized, instant outfit suggestions.",
+    technologies: ["LLMs", "RAG"]
+  },
+  {
+    title: "AI Automated Feasibility Creator",
+    image: feasibility,
+    projectUrl: "https://www.linkedin.com/posts/parsanta-rajpal_automation-feasibilitytool-innovation-activity-7269634254806929410-ac1M?utm_source=share&utm_medium=member_desktop",
+    description:
+      "Developed a tool to automate initial feasibility reports, enabling the sales team to respond faster to client queries without relying on developers. This solution reduced response delays and streamlined workflows, enhancing team efficiency and collaboration.",
+    technologies: ["LLMs"]
+  },
+  {
     title: "Review Analyzer",
     projectUrl: "https://www.linkedin.com/posts/parsanta-rajpal_machinelearning-productreviewanalyzer-ai-activity-7212124099739889664-AvIb?utm_source=share&utm_medium=member_desktop",
     image: review,
@@ -94,23 +111,7 @@ export const PROJECTS = [
     description:
       "A fully functional and responsive e-commerce website with features like product listing, shopping cart, and user authentication. The Project includes an Admin Dashboard and User Dashboard empowering seamless capabilities to add, delete, and edit orders and products",
     technologies: ["ReactJS", "Firebase"],
-  },
-  {
-    title: "NotesMemo",
-    projectUrl: "https://parsanta.github.io/NotesMemo/",
-    image: notes_pro,
-    description:
-      "NotesMemo is a website that offers a range of features for taking notes and organizing daily tasks and ideas. its uder-friendly interface and inuitive functions make it easy for users to create,delete and pin important notes for quick access.",
-    technologies: ["ReactJS"],
-  },
-  {
-    title: "Real-time Multiplayer Game",
-    image: rust_pro,
-    projectUrl: "https://github.com/Parsanta/Client-side/tree/main",
-    description:
-      "Developed a real-time multiplayer command-line game called Hangman in Rust, enabling multiple players to engage in acompetitive word-guessing challenge Implemented live score and guess updates on each player's terminal immediately",
-    technologies: ["Rust"],
-  },
+  }
 ];
 
 export const certifications = [

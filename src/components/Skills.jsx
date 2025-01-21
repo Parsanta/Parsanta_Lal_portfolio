@@ -6,23 +6,22 @@ import {
   FaReact,
   FaJava,
   FaBootstrap,
-  FaRust,
+  FaPython
 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoTailwindCss, BiLogoFirebase, BiLogoFigma } from "react-icons/bi";
+import {  SiLangchain, SiTensorflow, SiPytorch } from "react-icons/si";
 
 const skillsData = [
-  { icon: <FaRust />, className: "text-7xl text-cyan-100" },
-  { icon: <BiLogoFigma />, className: "text-7xl text-cyan-100" },
   { icon: <BiLogoFirebase />, className: "text-7xl text-cyan-100" },
   { icon: <BiLogoFigma />, className: "text-7xl text-cyan-100" },
   { icon: <BiLogoTailwindCss />, className: "text-7xl text-cyan-100" },
   { icon: <FaBootstrap />, className: "text-7xl text-cyan-100" },
-  { icon: <FaHtml5 />, className: "text-7xl text-cyan-100" },
-  { icon: <FaCss3 />, className: "text-7xl text-cyan-100" },
   { icon: <FaJava />, className: "text-7xl text-cyan-100" },
   { icon: <FaReact />, className: "text-7xl text-cyan-100" },
-  { icon: <IoLogoJavascript />, className: "text-7xl text-cyan-100" },
+  { icon: <FaPython />, className: "text-7xl text-cyan-100" },
+  { icon: <SiLangchain />, className: "text-7xl text-cyan-100" },
+  { icon: <SiTensorflow />, className: "text-7xl text-cyan-100" },
+  { icon: <SiPytorch />, className: "text-7xl text-cyan-100" },
 ];
 
 export default function Skills() {
