@@ -7,8 +7,9 @@ import AI_foundations from "../assets/img/AI_foundations.jpg";
 import genAiIntro from "../assets/img/genAiIntro.jpg";
 import notes_pro from "../assets/img/notes_pro.png";
 import dispatch from "../assets/img/dispatch.jpg";
-import feasibility from "../assets/img/feasibility.jpg";
+import feasibility from "../assets/img/Feasibility.jpg";
 import review from "../assets/img/Review.png";
+import Fashion from "../assets/img/Fashion.jpg";
 
 export const certifications_data = [
   {
@@ -82,8 +83,8 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "AI-Powered Outfit Recommendation System",
-    projectUrl: "https://parsanta.github.io/NotesMemo/",
-    image: notes_pro,
+    projectUrl: "https://www.linkedin.com/posts/parsanta-rajpal_artificialintelligence-ecommerce-fashiontech-activity-7277239925601714176-QiHl?utm_source=share&utm_medium=member_desktop",
+    image: Fashion,
     description:
       "Developed an AI-powered recommendation system that suggests complementary clothing and accessories based on uploaded images, enhancing the shopping experience.Boosted e-commerce revenue by encouraging multi-item purchases and improving customer satisfaction with personalized, instant outfit suggestions.",
     technologies: ["LLMs", "RAG"]

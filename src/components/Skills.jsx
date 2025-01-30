@@ -9,7 +9,7 @@ import {
   FaPython
 } from "react-icons/fa";
 import { BiLogoTailwindCss, BiLogoFirebase, BiLogoFigma } from "react-icons/bi";
-import {  SiLangchain, SiTensorflow, SiPytorch } from "react-icons/si";
+import { SiTensorflow, SiPytorch } from "react-icons/si";
 
 const skillsData = [
   { icon: <BiLogoFirebase />, className: "text-7xl text-cyan-100" },
@@ -19,7 +19,6 @@ const skillsData = [
   { icon: <FaJava />, className: "text-7xl text-cyan-100" },
   { icon: <FaReact />, className: "text-7xl text-cyan-100" },
   { icon: <FaPython />, className: "text-7xl text-cyan-100" },
-  { icon: <SiLangchain />, className: "text-7xl text-cyan-100" },
   { icon: <SiTensorflow />, className: "text-7xl text-cyan-100" },
   { icon: <SiPytorch />, className: "text-7xl text-cyan-100" },
 ];
