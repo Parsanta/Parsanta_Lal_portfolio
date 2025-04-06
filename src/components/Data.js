@@ -57,10 +57,17 @@ export const certifications_data = [
 ];
 export const EXPERIENCES = [
   {
-    year: "September 2024 - Present",
+    year: "January 2025 - Present",
+    role: "Junior AI Engineer",
+    company: "ELITE IT TEAM",
+    description: `Designing, building, and deploying AI solutions focusing on Generative AI RAG, and agentic AI. Experienced in training NLP and computer vision models, integrating external data sources, optimizing AI workflows, and collaborating with teams to implement AI-driven automation. Skilled in client communication and strategic AI development.`,
+    technologies: ["Generative AI", "Fine Tuning", "Retrival-Augmented Generation","Natural Language Processing (NLP)","LLM","Computer Vision"]
+  },
+  {
+    year: "September 2024 - January 2025",
     role: "AI intern",
     company: "ELITE IT TEAM",
-    description: `•Developed AI and ML solutions for client and internal projects, specializing in Retrieval-Augmented Generation with large language models. Conducted LLM fine-tuning for domain-specific tasks, and exploratory data analysis (EDA) for insights. Automated workflows to enhance efficiency, and deliver impactful tools supporting deliverables and processes.`,
+    description: `Developed AI and ML solutions for client and internal projects, specializing in Retrieval-Augmented Generation with large language models. Conducted LLM fine-tuning for domain-specific tasks, and exploratory data analysis (EDA) for insights. Automated workflows to enhance efficiency, and deliver impactful tools supporting deliverables and processes.`,
     technologies: ["Exploratory Data Analysis", "Fine Tuning", "Data Annotation","Natural Language Processing (NLP)","Computer Vision"]
   },
   {

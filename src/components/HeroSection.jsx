@@ -7,7 +7,7 @@ import "../components/glow.css";
 export default function HeroSection() {
   const handleDownload = () => {
     window.location.href =
-      "https://drive.google.com/file/d/1Rne0iEEu9arVDxfDHPrgPhYFIDs0x06_/view?usp=sharing";
+      "https://drive.google.com/file/d/1F76Nk2Aa1aJSTZFaIsDccAvjz-K0-C7g/view?usp=sharing";
   };
 
   const [loopNum, setLoopNum] = React.useState(0);
