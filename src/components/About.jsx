@@ -43,12 +43,11 @@ export default function About() {
             isSmallScreen && !showMore ? "line-clamp-5" : ""
           }`}
         >
-          I am currently pursuing a Bachelor’s degree in Computer Science, now in my seventh semester at DHA Suffa University, with a strong focus on AI and Machine Learning. My journey includes hands-on projects in Natural Language Processing (NLP) and computer vision, where I am building a foundation for solving real-world challenges through intelligent, data-driven solutions.
+          I am a Computer Science graduate from DHA Suffa University, currently working as an AI Engineer with hands-on experience in Machine Learning, NLP, Computer Vision, and backend development using FastAPI and PyTorch. I specialize in building intelligent, scalable systems and deploying AI models for real-world applications.
           <br/>
-          With a background in web development and the MERN stack, I bring an understanding of both user experience and advanced technology, integrating AI into interactive, user-centric applications.
-          <br />
-          Additionally, I am actively engaged in research across diverse domains, including Computer Graphics and Artificial Intelligence, fueling my curiosity and drive to contribute innovative solutions and push technological boundaries.
-          <br />
+          Actively involved in cutting-edge AI trends, I work with Generative AI, Retrieval-Augmented Generation (RAG), Agentic AI, and frameworks like LangChain to build autonomous, context-aware agents and LLM-integrated backends.
+          <br/>
+          Alongside my professional work, I pursue research in AI and Computer Graphics, always striving to innovate and stay ahead in the evolving AI landscape. I am now open to new opportunities in both applied AI engineering and research collaborations that challenge my skills and drive impact.
         </p>
 
         {isSmallScreen && (
