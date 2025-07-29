@@ -89,6 +89,14 @@ export const EXPERIENCES = [
 ];
 export const PROJECTS = [
   {
+    title: "On-board AI-based Data Fusion in Multi-Sensor Remote Sensing Satellites",
+    projectUrl: "https://www.linkedin.com/posts/parsanta-rajpal_fyp-finalyearproject-ai-activity-7355667565752283137-8fEU?utm_source=share&utm_medium=member_desktop&rcm=ACoAADtPnRkBz2OCdHbcEi1_JwmOKLyQZDtsX-U",
+    image: Fashion,
+    description:
+      "Developed an AI system to fuse SAR and optical images for real-time cloud removal and image enhancement in satellites. Built a deep learning pipeline (Uformer) with PyTorch, achieving improved clarity and onboard inference efficiency. Collaborated with SUPARCO on real-time feasibility and space-optimized deployment.",
+    technologies: ["DeepLearning","PyTorch", "FastAPI", "OpenCV"]
+  },
+  {
     title: "AI-Powered Outfit Recommendation System",
     projectUrl: "https://www.linkedin.com/posts/parsanta-rajpal_artificialintelligence-ecommerce-fashiontech-activity-7277239925601714176-QiHl?utm_source=share&utm_medium=member_desktop",
     image: Fashion,
